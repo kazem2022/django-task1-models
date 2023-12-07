@@ -11,11 +11,7 @@ class BrandAdminInline(admin.TabularInline):
 
 class ProductAdminInline(admin.TabularInline):
     model = Product
-<<<<<<< HEAD
     fileds = ["name", "models", "price", "is_enable"]
-=======
-    fileds = ["name", "models", "price"]
->>>>>>> bab6acbf7d414b29a63d2c53c5bf5a81c4d70e19
     extra = 0
     inlines = [BrandAdminInline]
 
